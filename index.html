@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Production - Header</title>
+    <style>
+        /* Basic styles for header */
+
+        header {
+            background-color:black;
+            color: white;
+            padding: 5px;;
+            margin: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 7px;
+            position: fixed;
+            width: 96%;
+            top: 1px;
+        }
+
+        /* Logo Styles */
+        .logo h1 {
+            width: 30px;
+            height: 30px;
+        }
+        /* Navigation Styles */
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+        .dd{
+            text-align: center;
+            background-image:url(Screenshot\ 2023-07-11\ 131348.jpg) ;
+            border-radius: 10px;
+            box-shadow: 4px;
+            padding: 30px;
+            top: 100px;
+        }
+        .df{
+            border-radius: 10px;
+            background-color: rgb(46, 46, 92);
+            padding: 5px 20px;
+            overflow: hidden;
+            transition: transform 1s ease, box-shadow 1s ease;
+            flex-wrap: wrap;
+        }
+
+        /* Responsive Navigation */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+        img:hover{
+        opacity: 1;       
+      transform: translate3d(20px 30px 40px); /* Moves the image up */
+      box-shadow: 0px 10px 10px green; /* Adds a shadow for depth */
+    
+        }
+    </style>
+</head>
+<body style="background-color:white
+; padding: 80px 10px; padding-top: 100px;">
+
+    <!-- Header Section -->
+    <header>
+        <!-- Logo -->
+        <div class="logo";">
+            <img src="R.jpg" alt="Shoe" style="width: 70px;height: 50px;">NERA TECH
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="dd"><h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" id="home">HERO SECTION</h1>
+    <div ><h2>innovating the future by taking a step at a time</h2></div>
+    <button style="border-radius: 3px;">learn more</button><button style="border-radius: 3px;">Get started</button>
+    </div>
+    
+    <div style="text-align: center;background-color: aquamarine;border-radius: 10px;border: 4px;border-color: #f39c12;"><h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" id="about">About</h2><div style="display: flex; padding: 3px;margin: 6px;"><div><img src="r3.jpg" alt="sh" style="border-radius: 15px;width: 100%; height: 200px;"></div>
+    <div style="width: 100%;" >
+Unlock Your Digital Future with [NERA TECH] <br>
+        
+        At [Nera tech], we are passionate about turning innovative ideas into reality through cutting-edge software development. Our team of expert coders works collaboratively to craft high-quality, scalable solutions tailored to meet the unique needs of our clients. Whether you're looking for custom web apps, mobile solutions, or enterprise software, we provide efficient and reliable coding that powers success.</div>
+</div></div>
+
+<div style="text-align: center;background-color:blue;border-radius: 10px; display: grid;min-width: 280px;" ><div><h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" id="features">Features</h2></div>
+<section style="display: flex;justify-content: space-between; padding: 20px;">
+    <div class="df">
+        <img src="R4.jpg" alt="" style="border-radius: 20px; transition:transform 0.3s ease, box-shadow 0.3s ease;object-fit: cover;">
+        <h3>1st feature</h3>
+    HTMl
+    </div>
+
+    <div  class="df">
+        <img src="R5.jpg" alt="" style="border-radius: 20px;object-fit: cover; transition:transform 0.3s ease, box-shadow 0.3s ease;">
+        <h3>2nd feature</h3>
+        CSS
+    </div>
+
+    <div  class="df">
+        <img src="R6.jpg" alt="" style="width: 125px;height: 125px;border-radius: 20px;object-fit: cover; transition:transform 0.3s ease, box-shadow 0.3s ease;" >
+        <h3>3rd feature</h3>
+        JAVA SCRIPT
+    </div>
+
+    <div  class="df">
+        <img src="R7.jpg" alt="" style="width: 125px;height: 125px; border-radius: 20px;object-fit: cover; transition:transform 0.3s ease, box-shadow 0.3s ease;">
+        <h3>4th feature</h3>
+        NODE.JS
+    </div>
+</section></div>
+
+<div style="text-align: center; background-color: aquamarine;border-radius: 9px; " ><div style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" id="testimonials"><h2>TESTIMONIALS</h2></div>
+
+<b>Alice:</b> "I love shopping at this shoe store! The variety is amazing, and the staff is always so helpful. My new boots fit perfectly!" <br>
+<b>John:</b> "Great quality shoes at fantastic prices. I've found everything I need here, and the service is top-notch my new jordans are lit <br>
+<b>Sarah: </b> "I always find the latest styles at this shop, and they are so comfortable! My go-to place for shoes." <br>
+<b>David:</b> "Fantastic selection and excellent customer service. I am always impressed with how quickly they help me find the perfect pair." <br>
+<b>Emma: </b> "The best shoe store in town! The quality is unbeatable, and I never leave without a great deal." <br>
+</div>
+
+<div style="text-align: center; display: flex; justify-content: center; flex-direction: column;" >
+    <div style="background-color: gray; width: 50%; margin: auto;border-radius: 10px; padding:-4px;margin-top: 10px;"  id="contact">
+    <h2>Contact Us</h2>
+  
+    <form action="/submit" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required placeholder="input your name" style="border-radius: 6px;"><br><br>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="input your email" style="border-radius: 6px;"><br><br>
+      
+      <label for="number">Phone :</label>
+      <input type="number" id="number" name="number" required placeholder="input your number" style="border-radius: 6px;"><br><br>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" cols="50" required placeholder="input your message" style="border-radius: 6px;"></textarea><br><br>
+      
+      <div>
+      <input type="submit" value="Submit" style="background-color: blue;border-radius: 4px;">
+
+<div style="text-align: right;padding: 5px;">
+      <img src="OIP (6).jpg" alt="google" style="width: 30px;height: 30px;border-radius: 40%;">
+      <img src="OIP (7).jpg" alt="" style="width: 30px;height: 30px;border-radius: 40%;">
+      <img src="download 3.jpg" alt="" style="width: 30px;height: 30px;border-radius: 40%;">
+      <img src="download.jpg" alt="" style="width: 30px;height: 30px;border-radius: 40%;">
+      </div>
+    </div>  
+    </form>
+</div>
+</div>
+
+<div style="text-align: center;">
+    <b>This is our link:</b><a href="https//:facebook.com">https//:shoepro.com</a>,<br><a href="https//:youtube.com">privacy policy</a>,<a href="https//:instagram.com">terms and conditions</a>
+</div>
+
+
+</body>
+</html>
